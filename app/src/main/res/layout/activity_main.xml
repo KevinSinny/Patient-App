@@ -1,0 +1,53 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#C5CFD0"
+    android:gravity="center"
+    android:padding="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UserName:"
+        android:textSize="40px"
+        android:textColor="#020202"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the username"
+        android:textColor="#070707"
+        android:textSize="40px"
+        android:id="@+id/uname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="40px"
+        android:textColor="#0A0B0B"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the password"
+        android:textColor="#0C0D0D"
+        android:textSize="40px"
+        android:id="@+id/upass"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30px"
+        android:textColor="#000000"
+        android:background="#9C27B0"
+        android:layout_margin="10px"
+        android:id="@+id/logbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Register"
+        android:background="#9C27B0"
+        android:textSize="30px"
+        android:textColor="#0A0B0B"
+        android:layout_margin="10px"
+        android:id="@+id/regbtn"
+        />
+</LinearLayout>
